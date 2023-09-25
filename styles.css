@@ -1,0 +1,293 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(222, 99%, 50%);
+    height: 100vh;
+    overflow: auto; 
+    transition: background-color 0.9s ease;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: hsl(222, 99%, 50%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style the logo */
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 37px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar .logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Style the menu list */
+.navbar .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu-list li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: inline;
+    margin-right: 70px;
+}
+
+/* Style the "Try for Free" button */
+.navbar .button_go {
+    background-color: #fff;
+    color: #0059FE;
+    border-radius: 40px;
+    padding: 17px 35px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Center the text content */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+}
+
+.centered .experience-text {
+    font-size: 69px;
+    font-weight: 300;
+    margin-top: 20px;
+    white-space: normal;
+}
+
+.centered .experience-text strong {
+    font-weight: bold;
+}
+
+/* Style the platform text */
+.platform-container {
+    position: absolute;
+    top: 31.5%;
+    right: 50px;
+    transform: translate(0, -50%);
+    color: #fff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.platform-text {
+    font-size: 17px;
+    white-space: normal;
+    margin-right: -400px; /* Adjusted margin-right */
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/* Style the buttons */
+.button-container {
+    text-align: right;
+    margin-top: 200px;
+}
+
+.button-container div {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.button_go_1,
+.button_go_2 {
+    display: block;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.button_go_1 {
+    background-color: #fff;
+    color: #0059FE;
+    border-radius: 40px;
+    padding: 19px 29px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+.button_go_2 {
+    background-color: #0059FE;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: 19px 29px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-top: 25px;
+    display: inline;
+}
+
+.button_go_1 img {
+    width: 27px;
+    height: 27px;
+}
+
+.button_go_1 img,
+.button_go_2 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 370px;
+    margin-left: 90px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    /* Black shadow with 10px blur */
+    filter: drop-shadow(5px 5px 7px #808080);
+}
+/* panel styles */
+.panel 
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+/* colours */
+.color-white {
+    background-color: #fff;
+    transition: background-color 1s ease; 
+  }
+
+/* Style the container for the image line */
+.image-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.image-line img 
+{
+    width: 100px;
+    height: auto;
+    margin-left: 150px; 
+}
+.custom-padding {
+    margin-bottom: -400px; 
+    padding-right: 150px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    margin-top: 190px; 
+}
+
+.text-container h1, .text-container h2 {
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.text-container h1
+{
+    font-size: 49px;
+}
+.text-container h2
+{
+    color: #808080; 
+}
+.dummy {
+    background-color: #fff; 
+    padding: 60px;
+    text-align: center;
+}
+.centered-image 
+{
+    width: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+.card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out; 
+}
+.card:hover {
+    transform: translateY(-5px); 
+}
+/* Style the text below the cards */
+.text-below-cards {
+    text-align: left;
+    color: #fff; 
+}
+.text-below-cards p 
+{
+    font-weight: 300;
+    font-size: 40px; 
+    color: hsl(222, 99%, 50%); 
+    margin: 0; 
+}
+.bold-text 
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.additional-text p 
+{
+    font-size: 22px;
+    color: grey;
+    line-height: 40px;
+}
+.values,
+.labels 
+{
+    width: 555px; 
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+}
+.text1
+{
+    font-size: 39px;
+}
+.s1
+{
+    color: #808080;
+    line-height: 30px;
+}
+
+
