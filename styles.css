@@ -1,5 +1,5 @@
-/* Reset default margin and padding */
-body {
+body 
+{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -8,9 +8,8 @@ body {
     overflow: auto; 
     transition: background-color 0.9s ease;
 }
-
-/* Style the navigation bar */
-.navbar {
+.navbar 
+{
     background-color: hsl(222, 99%, 50%);
     color: #fff;
     display: flex;
@@ -18,27 +17,25 @@ body {
     align-items: center;
     padding: 10px 20px;
 }
-
-/* Style the logo */
-.navbar .logo {
+.navbar .logo 
+{
     display: flex;
     align-items: center;
 }
-
-.navbar .logo img {
+.navbar .logo img 
+{
     width: 37px;
     height: auto;
     margin-right: 10px;
 }
-
-.navbar .logo h1 {
+.navbar .logo h1 
+{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
 }
-
-/* Style the menu list */
-.navbar .menu-list {
+.navbar .menu-list 
+{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -46,17 +43,16 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
-.navbar .menu-list li {
+.navbar .menu-list li 
+{
     font-size: 18px;
     font-weight: bold;
     color: #fff;
     display: inline;
     margin-right: 70px;
 }
-
-/* Style the "Try for Free" button */
-.navbar .button_go {
+.navbar .button_go 
+{
     background-color: #fff;
     color: #0059FE;
     border-radius: 40px;
@@ -64,9 +60,8 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-
-/* Center the text content */
-.centered {
+.centered 
+{
     position: absolute;
     top: 50%;
     left: 26%;
@@ -74,20 +69,19 @@ body {
     text-align: left;
     color: #fff;
 }
-
-.centered .experience-text {
+.centered .experience-text 
+{
     font-size: 69px;
     font-weight: 300;
     margin-top: 20px;
     white-space: normal;
 }
-
-.centered .experience-text strong {
+.centered .experience-text strong 
+{
     font-weight: bold;
 }
-
-/* Style the platform text */
-.platform-container {
+.platform-container 
+{
     position: absolute;
     top: 31.5%;
     right: 50px;
@@ -97,35 +91,35 @@ body {
     display: flex;
     align-items: center;
 }
-
-.platform-text {
+.platform-text 
+{
     font-size: 17px;
     white-space: normal;
-    margin-right: -400px; /* Adjusted margin-right */
+    margin-right: -400px; 
     margin-top: 20px;
     line-height: 1.8;
 }
-
-/* Style the buttons */
-.button-container {
+.button-container 
+{
     text-align: right;
     margin-top: 200px;
 }
-
-.button-container div {
+.button-container div 
+{
     display: block;
     margin-top: 60px;
     margin-bottom: 30px;
 }
-
 .button_go_1,
-.button_go_2 {
+.button_go_2, 
+.button_go_3
+{
     display: block;
     margin: 10px 0;
     margin-right: 20px;
 }
-
-.button_go_1 {
+.button_go_1 
+{
     background-color: #fff;
     color: #0059FE;
     border-radius: 40px;
@@ -136,8 +130,8 @@ body {
     margin: 10px 0;
     margin-right: 20px;
 }
-
-.button_go_2 {
+.button_go_2 
+{
     background-color: #0059FE;
     color: #fff;
     border: 2px solid #fff;
@@ -149,31 +143,29 @@ body {
     margin-top: 25px;
     display: inline;
 }
-
-.button_go_1 img {
+.button_go_1 img 
+{
     width: 27px;
     height: 27px;
 }
-
 .button_go_1 img,
-.button_go_2 img {
+.button_go_2 img 
+{
     vertical-align: middle;
     margin-right: 10px;
 }
-
-.image-container {
+.image-container 
+{
     text-align: center;
     margin-top: 370px;
     margin-left: 90px;
 }
-
-.image-container img {
+.image-container img 
+{
     max-width: 100%;
     height: auto;
-    /* Black shadow with 10px blur */
     filter: drop-shadow(5px 5px 7px #808080);
 }
-/* panel styles */
 .panel 
 {
     min-height: 100vh;
@@ -182,14 +174,13 @@ body {
     align-items: center;
     font-family: sans-serif;
 }
-/* colours */
-.color-white {
+.color-white 
+{
     background-color: #fff;
     transition: background-color 1s ease; 
-  }
-
-/* Style the container for the image line */
-.image-line {
+}
+.image-line 
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -201,19 +192,21 @@ body {
     height: auto;
     margin-left: 150px; 
 }
-.custom-padding {
+.custom-padding 
+{
     margin-bottom: -400px; 
     padding-right: 150px;
 }
-.text-container {
+.text-container 
+{
     display: flex;
     flex-direction: column;
     align-items: center; 
     padding: 20px;
     margin-top: 190px; 
 }
-
-.text-container h1, .text-container h2 {
+.text-container h1, .text-container h2 
+{
     margin: 10px 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -225,7 +218,8 @@ body {
 {
     color: #808080; 
 }
-.dummy {
+.dummy 
+{
     background-color: #fff; 
     padding: 60px;
     text-align: center;
@@ -237,7 +231,8 @@ body {
     margin: 0 auto;
     margin-bottom: 20px; 
 }
-.card {
+.card 
+{
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -245,11 +240,12 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out; 
 }
-.card:hover {
+.card:hover 
+{
     transform: translateY(-5px); 
 }
-/* Style the text below the cards */
-.text-below-cards {
+.text-below-cards 
+{
     text-align: left;
     color: #fff; 
 }
@@ -289,5 +285,24 @@ body {
     color: #808080;
     line-height: 30px;
 }
-
-
+.button_go_3 
+{
+    background-color: black;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 19px 29px;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-top: 25px;
+    display: inline;
+}
+.rights-text 
+{
+    position: absolute;
+    top: 190px;
+    right: 0px;
+    left: 290px;
+    color: grey;
+    font-size: 12px;
+}
